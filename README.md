@@ -4,6 +4,6 @@
 ### This project is based on CSV files 
 
 
-[a link](https://docs.python.org/3/)
+[Python Documentation](https://docs.python.org/3/)
 
-[a link](https://www.python.org/doc/)
+[Python Release](https://www.python.org/doc/)
