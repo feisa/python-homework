@@ -2,7 +2,7 @@ from pathlib import Path
 import csv
 import sys
 
-csvpath = Path('budget_data.csv')
+csvpath = Path('../Resources/budget_data.csv')
 line_num = 1
 total_months = [] 
 net_total = []
@@ -20,9 +20,6 @@ with open(csvpath, 'r') as csvfile:
 
     for i in range(len(total_months)-1):
       average_change.append(int(net_total[i+1])-int(net_total[i]))
-      print(average_change)
-      print(net_total[i+1])
-      print(net_total[i])
 
 max_value = max(average_change)
 min_value = min(average_change)
